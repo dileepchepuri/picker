@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin | NeoStore</title>
+    <link rel="stylesheet" href="admin/admin.css">
+</head>
+<body>
+
+<h1>Admin Dashboard – Product Management</h1>
+
+<div class="form">
+    <input type="hidden" id="productId">
+
+    <input type="text" id="name" placeholder="Product Name">
+    <input type="number" id="price" placeholder="Price">
+    <input type="text" id="category" placeholder="Category">
+    <input type="text" id="image" placeholder="Emoji (🎧 👟 ☕)">
+
+    <button onclick="saveProduct()">Save Product</button>
+</div>
+
+<hr>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Category</th>
+            <th>Image</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody id="productTable"></tbody>
+</table>
+
+
+<a href="/admin-logout" class="logout-btn">Logout</a>
+
+
+<script src="admin/admin.js"></script>
+</body>
+</html>
