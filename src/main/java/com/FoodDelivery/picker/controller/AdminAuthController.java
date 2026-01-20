@@ -24,7 +24,7 @@ public class AdminAuthController {
     public String login(@RequestParam String password,
                         HttpSession session) {
 
-        if ("admin123".equals(password)) {
+        if ("adminP@1010".equals(password)) {
             session.setAttribute("ADMIN_LOGGED_IN", true);
             return "redirect:/admin";
         }
