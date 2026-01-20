@@ -41,8 +41,6 @@ ORM: Spring Data JPA
 
 Server: Embedded Tomcat
 
-⚠️ No external frameworks (Spring Security, Bootstrap, etc.) were used to clearly demonstrate core fundamentals.
-
 🧩 Architecture Overview
 
 The application follows a clean MVC layered architecture:
